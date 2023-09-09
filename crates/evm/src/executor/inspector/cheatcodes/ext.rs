@@ -428,6 +428,25 @@ fn serialize_json(
     Ok(abi::encode(&[Token::String(stringified)]).into())
 }
 
+fn serialize_json_pure(
+    json_str: &str,
+    value_key: &str,
+    value: &str,
+) -> Result {
+    // value must be a JSON object
+    let mut parsed_obj: BTreeMap<String, Value> = serde_json::from_str(json_str)
+        .map_err(|err| fmt_err!("Failed to parse JSON object: {err}"))?;
+
+    let parsed_value =
+        serde_json::from_str(value).unwrap_or_else(|_| Value::String(value.to_string()));
+
+    parsed_obj.insert(value_key.to_string(), parsed_value);
+
+    let stringified = serde_json::to_string(&parsed_obj)
+        .map_err(|err| fmt_err!("Failed to stringify hashmap: {err}"))?;
+    Ok(abi::encode(&[Token::String(stringified)]).into())
+}
+
 /// Converts an array to it's stringified version, adding the appropriate quotes around it's
 /// ellements. This is to signify that the elements of the array are string themselves.
 fn array_str_to_str<T: UIfmt>(array: &Vec<T>) -> String {
@@ -709,6 +728,50 @@ pub fn apply<DB: Database>(
         }
         HEVMCalls::SerializeBytes1(inner) => {
             serialize_json(state, &inner.0, Some(&inner.1), &array_str_to_str(&inner.2))
+        }
+        // Pure versions of the above functions
+        HEVMCalls::SerializeJsonV2(inner) => serialize_json_pure(&inner.0, &inner.1, &inner.2.pretty()),
+        HEVMCalls::SerializeBoolV20(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &inner.2.pretty())
+        }
+        HEVMCalls::SerializeBoolV21(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &array_eval_to_str(&inner.2))
+        }
+        HEVMCalls::SerializeUintV20(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &inner.2.pretty())
+        }
+        HEVMCalls::SerializeUintV21(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &array_eval_to_str(&inner.2))
+        }
+        HEVMCalls::SerializeIntV20(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &inner.2.pretty())
+        }
+        HEVMCalls::SerializeIntV21(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &array_eval_to_str(&inner.2))
+        }
+        HEVMCalls::SerializeAddressV20(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &inner.2.pretty())
+        }
+        HEVMCalls::SerializeAddressV21(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &array_str_to_str(&inner.2))
+        }
+        HEVMCalls::SerializeBytes32V20(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &inner.2.pretty())
+        }
+        HEVMCalls::SerializeBytes32V21(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &array_str_to_str(&inner.2))
+        }
+        HEVMCalls::SerializeStringV20(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &inner.2.pretty())
+        }
+        HEVMCalls::SerializeStringV21(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &array_str_to_str(&inner.2))
+        }
+        HEVMCalls::SerializeBytesV20(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &inner.2.pretty())
+        }
+        HEVMCalls::SerializeBytesV21(inner) => {
+            serialize_json_pure(&inner.0, &inner.1, &array_str_to_str(&inner.2))
         }
         HEVMCalls::Sleep(inner) => sleep(&inner.0),
         HEVMCalls::WriteJson0(inner) => write_json(state, &inner.0, &inner.1, None),

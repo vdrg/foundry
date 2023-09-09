@@ -176,6 +176,30 @@ contract ParseJsonTest is DSTest {
     }
 }
 
+contract SerializeJsonPureTest is DSTest {
+    Vm constant vm = Vm(HEVM_ADDRESS);
+
+    function test_serializeJson() public {
+        string memory json = vm.serializeString_v2("{}", "foo", "bar");
+        assertEq(json, '{"foo":"bar"}');
+    }
+
+    function test_serializeBool() public {
+        string memory json = vm.serializeBool_v2("{}", "foo", true);
+        assertEq(json, '{"foo":true}');
+    }
+
+    function test_serializeUint() public {
+        string memory json = vm.serializeUint_v2("{}", "foo", 123);
+        assertEq(json, '{"foo":123}');
+    }
+
+    function test_serializeInt() public {
+        string memory json = vm.serializeInt_v2("{}", "foo", -123);
+        assertEq(json, '{"foo":-123}');
+    }
+}
+
 contract WriteJsonTest is DSTest {
     Vm constant vm = Vm(HEVM_ADDRESS);
 

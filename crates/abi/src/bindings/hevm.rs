@@ -4138,6 +4138,77 @@ pub mod hevm {
                     ],
                 ),
                 (
+                    ::std::borrow::ToOwned::to_owned("serializeAddress_v2"),
+                    ::std::vec![
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned(
+                                "serializeAddress_v2",
+                            ),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::Address,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned(
+                                "serializeAddress_v2",
+                            ),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::Array(
+                                        ::std::boxed::Box::new(
+                                            ::ethers_core::abi::ethabi::ParamType::Address,
+                                        ),
+                                    ),
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                    ],
+                ),
+                (
                     ::std::borrow::ToOwned::to_owned("serializeBool"),
                     ::std::vec![
                         ::ethers_core::abi::ethabi::Function {
@@ -4171,6 +4242,73 @@ pub mod hevm {
                         },
                         ::ethers_core::abi::ethabi::Function {
                             name: ::std::borrow::ToOwned::to_owned("serializeBool"),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::Array(
+                                        ::std::boxed::Box::new(
+                                            ::ethers_core::abi::ethabi::ParamType::Bool,
+                                        ),
+                                    ),
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                    ],
+                ),
+                (
+                    ::std::borrow::ToOwned::to_owned("serializeBool_v2"),
+                    ::std::vec![
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned("serializeBool_v2"),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::Bool,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned("serializeBool_v2"),
                             inputs: ::std::vec![
                                 ::ethers_core::abi::ethabi::Param {
                                     name: ::std::string::String::new(),
@@ -4341,6 +4479,146 @@ pub mod hevm {
                     ],
                 ),
                 (
+                    ::std::borrow::ToOwned::to_owned("serializeBytes32_v2"),
+                    ::std::vec![
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned(
+                                "serializeBytes32_v2",
+                            ),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::FixedBytes(
+                                        32usize,
+                                    ),
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned(
+                                "serializeBytes32_v2",
+                            ),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::Array(
+                                        ::std::boxed::Box::new(
+                                            ::ethers_core::abi::ethabi::ParamType::FixedBytes(32usize),
+                                        ),
+                                    ),
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                    ],
+                ),
+                (
+                    ::std::borrow::ToOwned::to_owned("serializeBytes_v2"),
+                    ::std::vec![
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned("serializeBytes_v2"),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::Bytes,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned("serializeBytes_v2"),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::Array(
+                                        ::std::boxed::Box::new(
+                                            ::ethers_core::abi::ethabi::ParamType::Bytes,
+                                        ),
+                                    ),
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                    ],
+                ),
+                (
                     ::std::borrow::ToOwned::to_owned("serializeInt"),
                     ::std::vec![
                         ::ethers_core::abi::ethabi::Function {
@@ -4408,11 +4686,112 @@ pub mod hevm {
                     ],
                 ),
                 (
+                    ::std::borrow::ToOwned::to_owned("serializeInt_v2"),
+                    ::std::vec![
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned("serializeInt_v2"),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::Int(256usize),
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned("serializeInt_v2"),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::Array(
+                                        ::std::boxed::Box::new(
+                                            ::ethers_core::abi::ethabi::ParamType::Int(256usize),
+                                        ),
+                                    ),
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                    ],
+                ),
+                (
                     ::std::borrow::ToOwned::to_owned("serializeJson"),
                     ::std::vec![
                         ::ethers_core::abi::ethabi::Function {
                             name: ::std::borrow::ToOwned::to_owned("serializeJson"),
                             inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                    ],
+                ),
+                (
+                    ::std::borrow::ToOwned::to_owned("serializeJson_v2"),
+                    ::std::vec![
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned("serializeJson_v2"),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
                                 ::ethers_core::abi::ethabi::Param {
                                     name: ::std::string::String::new(),
                                     kind: ::ethers_core::abi::ethabi::ParamType::String,
@@ -4504,6 +4883,73 @@ pub mod hevm {
                     ],
                 ),
                 (
+                    ::std::borrow::ToOwned::to_owned("serializeString_v2"),
+                    ::std::vec![
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned("serializeString_v2"),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned("serializeString_v2"),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::Array(
+                                        ::std::boxed::Box::new(
+                                            ::ethers_core::abi::ethabi::ParamType::String,
+                                        ),
+                                    ),
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                    ],
+                ),
+                (
                     ::std::borrow::ToOwned::to_owned("serializeUint"),
                     ::std::vec![
                         ::ethers_core::abi::ethabi::Function {
@@ -4537,6 +4983,73 @@ pub mod hevm {
                         },
                         ::ethers_core::abi::ethabi::Function {
                             name: ::std::borrow::ToOwned::to_owned("serializeUint"),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::Array(
+                                        ::std::boxed::Box::new(
+                                            ::ethers_core::abi::ethabi::ParamType::Uint(256usize),
+                                        ),
+                                    ),
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                    ],
+                ),
+                (
+                    ::std::borrow::ToOwned::to_owned("serializeUint_v2"),
+                    ::std::vec![
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned("serializeUint_v2"),
+                            inputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::Uint(256usize),
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            outputs: ::std::vec![
+                                ::ethers_core::abi::ethabi::Param {
+                                    name: ::std::string::String::new(),
+                                    kind: ::ethers_core::abi::ethabi::ParamType::String,
+                                    internal_type: ::core::option::Option::None,
+                                },
+                            ],
+                            constant: ::core::option::Option::None,
+                            state_mutability: ::ethers_core::abi::ethabi::StateMutability::NonPayable,
+                        },
+                        ::ethers_core::abi::ethabi::Function {
+                            name: ::std::borrow::ToOwned::to_owned("serializeUint_v2"),
                             inputs: ::std::vec![
                                 ::ethers_core::abi::ethabi::Param {
                                     name: ::std::string::String::new(),
@@ -7033,6 +7546,28 @@ pub mod hevm {
                 .method_hash([30, 53, 110, 26], (p0, p1, p2))
                 .expect("method not found (this should never happen)")
         }
+        ///Calls the contract's `serializeAddress_v2` (0xb14f98fe) function
+        pub fn serialize_address_v_20(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::ethers_core::types::Address,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([177, 79, 152, 254], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
+        ///Calls the contract's `serializeAddress_v2` (0x4f86c2f7) function
+        pub fn serialize_address_v_21(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::std::vec::Vec<::ethers_core::types::Address>,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([79, 134, 194, 247], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
         ///Calls the contract's `serializeBool` (0xac22e971) function
         pub fn serialize_bool_0(
             &self,
@@ -7053,6 +7588,28 @@ pub mod hevm {
         ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
             self.0
                 .method_hash([146, 146, 90, 161], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
+        ///Calls the contract's `serializeBool_v2` (0x77604878) function
+        pub fn serialize_bool_v_20(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: bool,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([119, 96, 72, 120], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
+        ///Calls the contract's `serializeBool_v2` (0xbcbb7272) function
+        pub fn serialize_bool_v_21(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::std::vec::Vec<bool>,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([188, 187, 114, 114], (p0, p1, p2))
                 .expect("method not found (this should never happen)")
         }
         ///Calls the contract's `serializeBytes` (0xf21d52c7) function
@@ -7099,6 +7656,50 @@ pub mod hevm {
                 .method_hash([32, 30, 67, 226], (p0, p1, p2))
                 .expect("method not found (this should never happen)")
         }
+        ///Calls the contract's `serializeBytes32_v2` (0x223b6847) function
+        pub fn serialize_bytes_32_v_20(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: [u8; 32],
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([34, 59, 104, 71], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
+        ///Calls the contract's `serializeBytes32_v2` (0x55edc833) function
+        pub fn serialize_bytes_32_v_21(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::std::vec::Vec<[u8; 32]>,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([85, 237, 200, 51], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
+        ///Calls the contract's `serializeBytes_v2` (0x42ed5c0a) function
+        pub fn serialize_bytes_v_20(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::ethers_core::types::Bytes,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([66, 237, 92, 10], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
+        ///Calls the contract's `serializeBytes_v2` (0x0284ce0a) function
+        pub fn serialize_bytes_v_21(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::std::vec::Vec<::ethers_core::types::Bytes>,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([2, 132, 206, 10], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
         ///Calls the contract's `serializeInt` (0x3f33db60) function
         pub fn serialize_int_0(
             &self,
@@ -7121,6 +7722,28 @@ pub mod hevm {
                 .method_hash([118, 118, 225, 39], (p0, p1, p2))
                 .expect("method not found (this should never happen)")
         }
+        ///Calls the contract's `serializeInt_v2` (0x0eec85d2) function
+        pub fn serialize_int_v_20(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::ethers_core::types::I256,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([14, 236, 133, 210], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
+        ///Calls the contract's `serializeInt_v2` (0x392986ec) function
+        pub fn serialize_int_v_21(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::std::vec::Vec<::ethers_core::types::I256>,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([57, 41, 134, 236], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
         ///Calls the contract's `serializeJson` (0x9b3358b0) function
         pub fn serialize_json(
             &self,
@@ -7129,6 +7752,17 @@ pub mod hevm {
         ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
             self.0
                 .method_hash([155, 51, 88, 176], (p0, p1))
+                .expect("method not found (this should never happen)")
+        }
+        ///Calls the contract's `serializeJson_v2` (0x3ced5d01) function
+        pub fn serialize_json_v_2(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::std::string::String,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([60, 237, 93, 1], (p0, p1, p2))
                 .expect("method not found (this should never happen)")
         }
         ///Calls the contract's `serializeString` (0x88da6d35) function
@@ -7153,6 +7787,28 @@ pub mod hevm {
                 .method_hash([86, 28, 214, 243], (p0, p1, p2))
                 .expect("method not found (this should never happen)")
         }
+        ///Calls the contract's `serializeString_v2` (0x61b23968) function
+        pub fn serialize_string_v_20(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::std::string::String,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([97, 178, 57, 104], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
+        ///Calls the contract's `serializeString_v2` (0x627b17a8) function
+        pub fn serialize_string_v_21(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::std::vec::Vec<::std::string::String>,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([98, 123, 23, 168], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
         ///Calls the contract's `serializeUint` (0x129e9002) function
         pub fn serialize_uint_0(
             &self,
@@ -7173,6 +7829,28 @@ pub mod hevm {
         ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
             self.0
                 .method_hash([254, 233, 164, 105], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
+        ///Calls the contract's `serializeUint_v2` (0x89d206a3) function
+        pub fn serialize_uint_v_20(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::ethers_core::types::U256,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([137, 210, 6, 163], (p0, p1, p2))
+                .expect("method not found (this should never happen)")
+        }
+        ///Calls the contract's `serializeUint_v2` (0xb028889e) function
+        pub fn serialize_uint_v_21(
+            &self,
+            p0: ::std::string::String,
+            p1: ::std::string::String,
+            p2: ::std::vec::Vec<::ethers_core::types::U256>,
+        ) -> ::ethers_contract::builders::ContractCall<M, ::std::string::String> {
+            self.0
+                .method_hash([176, 40, 136, 158], (p0, p1, p2))
                 .expect("method not found (this should never happen)")
         }
         ///Calls the contract's `setEnv` (0x3d5923ee) function
@@ -9847,6 +10525,46 @@ pub mod hevm {
         pub ::std::string::String,
         pub ::std::vec::Vec<::ethers_core::types::Address>,
     );
+    ///Container type for all input parameters for the `serializeAddress_v2` function with signature `serializeAddress_v2(string,string,address)` and selector `0xb14f98fe`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(
+        name = "serializeAddress_v2",
+        abi = "serializeAddress_v2(string,string,address)"
+    )]
+    pub struct SerializeAddressV20Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::ethers_core::types::Address,
+    );
+    ///Container type for all input parameters for the `serializeAddress_v2` function with signature `serializeAddress_v2(string,string,address[])` and selector `0x4f86c2f7`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(
+        name = "serializeAddress_v2",
+        abi = "serializeAddress_v2(string,string,address[])"
+    )]
+    pub struct SerializeAddressV21Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::std::vec::Vec<::ethers_core::types::Address>,
+    );
     ///Container type for all input parameters for the `serializeBool` function with signature `serializeBool(string,string,bool)` and selector `0xac22e971`
     #[derive(
         Clone,
@@ -9877,6 +10595,40 @@ pub mod hevm {
     )]
     #[ethcall(name = "serializeBool", abi = "serializeBool(string,string,bool[])")]
     pub struct SerializeBool1Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::std::vec::Vec<bool>,
+    );
+    ///Container type for all input parameters for the `serializeBool_v2` function with signature `serializeBool_v2(string,string,bool)` and selector `0x77604878`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(name = "serializeBool_v2", abi = "serializeBool_v2(string,string,bool)")]
+    pub struct SerializeBoolV20Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub bool,
+    );
+    ///Container type for all input parameters for the `serializeBool_v2` function with signature `serializeBool_v2(string,string,bool[])` and selector `0xbcbb7272`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(name = "serializeBool_v2", abi = "serializeBool_v2(string,string,bool[])")]
+    pub struct SerializeBoolV21Call(
         pub ::std::string::String,
         pub ::std::string::String,
         pub ::std::vec::Vec<bool>,
@@ -9955,6 +10707,86 @@ pub mod hevm {
         pub ::std::string::String,
         pub ::std::vec::Vec<[u8; 32]>,
     );
+    ///Container type for all input parameters for the `serializeBytes32_v2` function with signature `serializeBytes32_v2(string,string,bytes32)` and selector `0x223b6847`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(
+        name = "serializeBytes32_v2",
+        abi = "serializeBytes32_v2(string,string,bytes32)"
+    )]
+    pub struct SerializeBytes32V20Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub [u8; 32],
+    );
+    ///Container type for all input parameters for the `serializeBytes32_v2` function with signature `serializeBytes32_v2(string,string,bytes32[])` and selector `0x55edc833`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(
+        name = "serializeBytes32_v2",
+        abi = "serializeBytes32_v2(string,string,bytes32[])"
+    )]
+    pub struct SerializeBytes32V21Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::std::vec::Vec<[u8; 32]>,
+    );
+    ///Container type for all input parameters for the `serializeBytes_v2` function with signature `serializeBytes_v2(string,string,bytes)` and selector `0x42ed5c0a`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(
+        name = "serializeBytes_v2",
+        abi = "serializeBytes_v2(string,string,bytes)"
+    )]
+    pub struct SerializeBytesV20Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::ethers_core::types::Bytes,
+    );
+    ///Container type for all input parameters for the `serializeBytes_v2` function with signature `serializeBytes_v2(string,string,bytes[])` and selector `0x0284ce0a`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(
+        name = "serializeBytes_v2",
+        abi = "serializeBytes_v2(string,string,bytes[])"
+    )]
+    pub struct SerializeBytesV21Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::std::vec::Vec<::ethers_core::types::Bytes>,
+    );
     ///Container type for all input parameters for the `serializeInt` function with signature `serializeInt(string,string,int256)` and selector `0x3f33db60`
     #[derive(
         Clone,
@@ -9989,6 +10821,40 @@ pub mod hevm {
         pub ::std::string::String,
         pub ::std::vec::Vec<::ethers_core::types::I256>,
     );
+    ///Container type for all input parameters for the `serializeInt_v2` function with signature `serializeInt_v2(string,string,int256)` and selector `0x0eec85d2`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(name = "serializeInt_v2", abi = "serializeInt_v2(string,string,int256)")]
+    pub struct SerializeIntV20Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::ethers_core::types::I256,
+    );
+    ///Container type for all input parameters for the `serializeInt_v2` function with signature `serializeInt_v2(string,string,int256[])` and selector `0x392986ec`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(name = "serializeInt_v2", abi = "serializeInt_v2(string,string,int256[])")]
+    pub struct SerializeIntV21Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::std::vec::Vec<::ethers_core::types::I256>,
+    );
     ///Container type for all input parameters for the `serializeJson` function with signature `serializeJson(string,string)` and selector `0x9b3358b0`
     #[derive(
         Clone,
@@ -10002,6 +10868,23 @@ pub mod hevm {
     )]
     #[ethcall(name = "serializeJson", abi = "serializeJson(string,string)")]
     pub struct SerializeJsonCall(pub ::std::string::String, pub ::std::string::String);
+    ///Container type for all input parameters for the `serializeJson_v2` function with signature `serializeJson_v2(string,string,string)` and selector `0x3ced5d01`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(name = "serializeJson_v2", abi = "serializeJson_v2(string,string,string)")]
+    pub struct SerializeJsonV2Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::std::string::String,
+    );
     ///Container type for all input parameters for the `serializeString` function with signature `serializeString(string,string,string)` and selector `0x88da6d35`
     #[derive(
         Clone,
@@ -10036,6 +10919,46 @@ pub mod hevm {
         pub ::std::string::String,
         pub ::std::vec::Vec<::std::string::String>,
     );
+    ///Container type for all input parameters for the `serializeString_v2` function with signature `serializeString_v2(string,string,string)` and selector `0x61b23968`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(
+        name = "serializeString_v2",
+        abi = "serializeString_v2(string,string,string)"
+    )]
+    pub struct SerializeStringV20Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::std::string::String,
+    );
+    ///Container type for all input parameters for the `serializeString_v2` function with signature `serializeString_v2(string,string,string[])` and selector `0x627b17a8`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(
+        name = "serializeString_v2",
+        abi = "serializeString_v2(string,string,string[])"
+    )]
+    pub struct SerializeStringV21Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::std::vec::Vec<::std::string::String>,
+    );
     ///Container type for all input parameters for the `serializeUint` function with signature `serializeUint(string,string,uint256)` and selector `0x129e9002`
     #[derive(
         Clone,
@@ -10066,6 +10989,46 @@ pub mod hevm {
     )]
     #[ethcall(name = "serializeUint", abi = "serializeUint(string,string,uint256[])")]
     pub struct SerializeUint1Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::std::vec::Vec<::ethers_core::types::U256>,
+    );
+    ///Container type for all input parameters for the `serializeUint_v2` function with signature `serializeUint_v2(string,string,uint256)` and selector `0x89d206a3`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(
+        name = "serializeUint_v2",
+        abi = "serializeUint_v2(string,string,uint256)"
+    )]
+    pub struct SerializeUintV20Call(
+        pub ::std::string::String,
+        pub ::std::string::String,
+        pub ::ethers_core::types::U256,
+    );
+    ///Container type for all input parameters for the `serializeUint_v2` function with signature `serializeUint_v2(string,string,uint256[])` and selector `0xb028889e`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthCall,
+        ::ethers_contract::EthDisplay,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    #[ethcall(
+        name = "serializeUint_v2",
+        abi = "serializeUint_v2(string,string,uint256[])"
+    )]
+    pub struct SerializeUintV21Call(
         pub ::std::string::String,
         pub ::std::string::String,
         pub ::std::vec::Vec<::ethers_core::types::U256>,
@@ -10689,19 +11652,34 @@ pub mod hevm {
         SelectFork(SelectForkCall),
         SerializeAddress0(SerializeAddress0Call),
         SerializeAddress1(SerializeAddress1Call),
+        SerializeAddressV20(SerializeAddressV20Call),
+        SerializeAddressV21(SerializeAddressV21Call),
         SerializeBool0(SerializeBool0Call),
         SerializeBool1(SerializeBool1Call),
+        SerializeBoolV20(SerializeBoolV20Call),
+        SerializeBoolV21(SerializeBoolV21Call),
         SerializeBytes0(SerializeBytes0Call),
         SerializeBytes1(SerializeBytes1Call),
         SerializeBytes320(SerializeBytes320Call),
         SerializeBytes321(SerializeBytes321Call),
+        SerializeBytes32V20(SerializeBytes32V20Call),
+        SerializeBytes32V21(SerializeBytes32V21Call),
+        SerializeBytesV20(SerializeBytesV20Call),
+        SerializeBytesV21(SerializeBytesV21Call),
         SerializeInt0(SerializeInt0Call),
         SerializeInt1(SerializeInt1Call),
+        SerializeIntV20(SerializeIntV20Call),
+        SerializeIntV21(SerializeIntV21Call),
         SerializeJson(SerializeJsonCall),
+        SerializeJsonV2(SerializeJsonV2Call),
         SerializeString0(SerializeString0Call),
         SerializeString1(SerializeString1Call),
+        SerializeStringV20(SerializeStringV20Call),
+        SerializeStringV21(SerializeStringV21Call),
         SerializeUint0(SerializeUint0Call),
         SerializeUint1(SerializeUint1Call),
+        SerializeUintV20(SerializeUintV20Call),
+        SerializeUintV21(SerializeUintV21Call),
         SetEnv(SetEnvCall),
         SetNonce(SetNonceCall),
         SetNonceUnsafe(SetNonceUnsafeCall),
@@ -11437,12 +12415,32 @@ pub mod hevm {
                 return Ok(Self::SerializeAddress1(decoded));
             }
             if let Ok(decoded)
+                = <SerializeAddressV20Call as ::ethers_core::abi::AbiDecode>::decode(
+                    data,
+                ) {
+                return Ok(Self::SerializeAddressV20(decoded));
+            }
+            if let Ok(decoded)
+                = <SerializeAddressV21Call as ::ethers_core::abi::AbiDecode>::decode(
+                    data,
+                ) {
+                return Ok(Self::SerializeAddressV21(decoded));
+            }
+            if let Ok(decoded)
                 = <SerializeBool0Call as ::ethers_core::abi::AbiDecode>::decode(data) {
                 return Ok(Self::SerializeBool0(decoded));
             }
             if let Ok(decoded)
                 = <SerializeBool1Call as ::ethers_core::abi::AbiDecode>::decode(data) {
                 return Ok(Self::SerializeBool1(decoded));
+            }
+            if let Ok(decoded)
+                = <SerializeBoolV20Call as ::ethers_core::abi::AbiDecode>::decode(data) {
+                return Ok(Self::SerializeBoolV20(decoded));
+            }
+            if let Ok(decoded)
+                = <SerializeBoolV21Call as ::ethers_core::abi::AbiDecode>::decode(data) {
+                return Ok(Self::SerializeBoolV21(decoded));
             }
             if let Ok(decoded)
                 = <SerializeBytes0Call as ::ethers_core::abi::AbiDecode>::decode(data) {
@@ -11465,6 +12463,30 @@ pub mod hevm {
                 return Ok(Self::SerializeBytes321(decoded));
             }
             if let Ok(decoded)
+                = <SerializeBytes32V20Call as ::ethers_core::abi::AbiDecode>::decode(
+                    data,
+                ) {
+                return Ok(Self::SerializeBytes32V20(decoded));
+            }
+            if let Ok(decoded)
+                = <SerializeBytes32V21Call as ::ethers_core::abi::AbiDecode>::decode(
+                    data,
+                ) {
+                return Ok(Self::SerializeBytes32V21(decoded));
+            }
+            if let Ok(decoded)
+                = <SerializeBytesV20Call as ::ethers_core::abi::AbiDecode>::decode(
+                    data,
+                ) {
+                return Ok(Self::SerializeBytesV20(decoded));
+            }
+            if let Ok(decoded)
+                = <SerializeBytesV21Call as ::ethers_core::abi::AbiDecode>::decode(
+                    data,
+                ) {
+                return Ok(Self::SerializeBytesV21(decoded));
+            }
+            if let Ok(decoded)
                 = <SerializeInt0Call as ::ethers_core::abi::AbiDecode>::decode(data) {
                 return Ok(Self::SerializeInt0(decoded));
             }
@@ -11473,8 +12495,20 @@ pub mod hevm {
                 return Ok(Self::SerializeInt1(decoded));
             }
             if let Ok(decoded)
+                = <SerializeIntV20Call as ::ethers_core::abi::AbiDecode>::decode(data) {
+                return Ok(Self::SerializeIntV20(decoded));
+            }
+            if let Ok(decoded)
+                = <SerializeIntV21Call as ::ethers_core::abi::AbiDecode>::decode(data) {
+                return Ok(Self::SerializeIntV21(decoded));
+            }
+            if let Ok(decoded)
                 = <SerializeJsonCall as ::ethers_core::abi::AbiDecode>::decode(data) {
                 return Ok(Self::SerializeJson(decoded));
+            }
+            if let Ok(decoded)
+                = <SerializeJsonV2Call as ::ethers_core::abi::AbiDecode>::decode(data) {
+                return Ok(Self::SerializeJsonV2(decoded));
             }
             if let Ok(decoded)
                 = <SerializeString0Call as ::ethers_core::abi::AbiDecode>::decode(data) {
@@ -11485,12 +12519,32 @@ pub mod hevm {
                 return Ok(Self::SerializeString1(decoded));
             }
             if let Ok(decoded)
+                = <SerializeStringV20Call as ::ethers_core::abi::AbiDecode>::decode(
+                    data,
+                ) {
+                return Ok(Self::SerializeStringV20(decoded));
+            }
+            if let Ok(decoded)
+                = <SerializeStringV21Call as ::ethers_core::abi::AbiDecode>::decode(
+                    data,
+                ) {
+                return Ok(Self::SerializeStringV21(decoded));
+            }
+            if let Ok(decoded)
                 = <SerializeUint0Call as ::ethers_core::abi::AbiDecode>::decode(data) {
                 return Ok(Self::SerializeUint0(decoded));
             }
             if let Ok(decoded)
                 = <SerializeUint1Call as ::ethers_core::abi::AbiDecode>::decode(data) {
                 return Ok(Self::SerializeUint1(decoded));
+            }
+            if let Ok(decoded)
+                = <SerializeUintV20Call as ::ethers_core::abi::AbiDecode>::decode(data) {
+                return Ok(Self::SerializeUintV20(decoded));
+            }
+            if let Ok(decoded)
+                = <SerializeUintV21Call as ::ethers_core::abi::AbiDecode>::decode(data) {
+                return Ok(Self::SerializeUintV21(decoded));
             }
             if let Ok(decoded)
                 = <SetEnvCall as ::ethers_core::abi::AbiDecode>::decode(data) {
@@ -12024,10 +13078,22 @@ pub mod hevm {
                 Self::SerializeAddress1(element) => {
                     ::ethers_core::abi::AbiEncode::encode(element)
                 }
+                Self::SerializeAddressV20(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
+                Self::SerializeAddressV21(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
                 Self::SerializeBool0(element) => {
                     ::ethers_core::abi::AbiEncode::encode(element)
                 }
                 Self::SerializeBool1(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
+                Self::SerializeBoolV20(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
+                Self::SerializeBoolV21(element) => {
                     ::ethers_core::abi::AbiEncode::encode(element)
                 }
                 Self::SerializeBytes0(element) => {
@@ -12042,13 +13108,34 @@ pub mod hevm {
                 Self::SerializeBytes321(element) => {
                     ::ethers_core::abi::AbiEncode::encode(element)
                 }
+                Self::SerializeBytes32V20(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
+                Self::SerializeBytes32V21(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
+                Self::SerializeBytesV20(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
+                Self::SerializeBytesV21(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
                 Self::SerializeInt0(element) => {
                     ::ethers_core::abi::AbiEncode::encode(element)
                 }
                 Self::SerializeInt1(element) => {
                     ::ethers_core::abi::AbiEncode::encode(element)
                 }
+                Self::SerializeIntV20(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
+                Self::SerializeIntV21(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
                 Self::SerializeJson(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
+                Self::SerializeJsonV2(element) => {
                     ::ethers_core::abi::AbiEncode::encode(element)
                 }
                 Self::SerializeString0(element) => {
@@ -12057,10 +13144,22 @@ pub mod hevm {
                 Self::SerializeString1(element) => {
                     ::ethers_core::abi::AbiEncode::encode(element)
                 }
+                Self::SerializeStringV20(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
+                Self::SerializeStringV21(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
                 Self::SerializeUint0(element) => {
                     ::ethers_core::abi::AbiEncode::encode(element)
                 }
                 Self::SerializeUint1(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
+                Self::SerializeUintV20(element) => {
+                    ::ethers_core::abi::AbiEncode::encode(element)
+                }
+                Self::SerializeUintV21(element) => {
                     ::ethers_core::abi::AbiEncode::encode(element)
                 }
                 Self::SetEnv(element) => ::ethers_core::abi::AbiEncode::encode(element),
@@ -12331,19 +13430,46 @@ pub mod hevm {
                 Self::SelectFork(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeAddress0(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeAddress1(element) => ::core::fmt::Display::fmt(element, f),
+                Self::SerializeAddressV20(element) => {
+                    ::core::fmt::Display::fmt(element, f)
+                }
+                Self::SerializeAddressV21(element) => {
+                    ::core::fmt::Display::fmt(element, f)
+                }
                 Self::SerializeBool0(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeBool1(element) => ::core::fmt::Display::fmt(element, f),
+                Self::SerializeBoolV20(element) => ::core::fmt::Display::fmt(element, f),
+                Self::SerializeBoolV21(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeBytes0(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeBytes1(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeBytes320(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeBytes321(element) => ::core::fmt::Display::fmt(element, f),
+                Self::SerializeBytes32V20(element) => {
+                    ::core::fmt::Display::fmt(element, f)
+                }
+                Self::SerializeBytes32V21(element) => {
+                    ::core::fmt::Display::fmt(element, f)
+                }
+                Self::SerializeBytesV20(element) => ::core::fmt::Display::fmt(element, f),
+                Self::SerializeBytesV21(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeInt0(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeInt1(element) => ::core::fmt::Display::fmt(element, f),
+                Self::SerializeIntV20(element) => ::core::fmt::Display::fmt(element, f),
+                Self::SerializeIntV21(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeJson(element) => ::core::fmt::Display::fmt(element, f),
+                Self::SerializeJsonV2(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeString0(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeString1(element) => ::core::fmt::Display::fmt(element, f),
+                Self::SerializeStringV20(element) => {
+                    ::core::fmt::Display::fmt(element, f)
+                }
+                Self::SerializeStringV21(element) => {
+                    ::core::fmt::Display::fmt(element, f)
+                }
                 Self::SerializeUint0(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SerializeUint1(element) => ::core::fmt::Display::fmt(element, f),
+                Self::SerializeUintV20(element) => ::core::fmt::Display::fmt(element, f),
+                Self::SerializeUintV21(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SetEnv(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SetNonce(element) => ::core::fmt::Display::fmt(element, f),
                 Self::SetNonceUnsafe(element) => ::core::fmt::Display::fmt(element, f),
@@ -13205,6 +14331,16 @@ pub mod hevm {
             Self::SerializeAddress1(value)
         }
     }
+    impl ::core::convert::From<SerializeAddressV20Call> for HEVMCalls {
+        fn from(value: SerializeAddressV20Call) -> Self {
+            Self::SerializeAddressV20(value)
+        }
+    }
+    impl ::core::convert::From<SerializeAddressV21Call> for HEVMCalls {
+        fn from(value: SerializeAddressV21Call) -> Self {
+            Self::SerializeAddressV21(value)
+        }
+    }
     impl ::core::convert::From<SerializeBool0Call> for HEVMCalls {
         fn from(value: SerializeBool0Call) -> Self {
             Self::SerializeBool0(value)
@@ -13213,6 +14349,16 @@ pub mod hevm {
     impl ::core::convert::From<SerializeBool1Call> for HEVMCalls {
         fn from(value: SerializeBool1Call) -> Self {
             Self::SerializeBool1(value)
+        }
+    }
+    impl ::core::convert::From<SerializeBoolV20Call> for HEVMCalls {
+        fn from(value: SerializeBoolV20Call) -> Self {
+            Self::SerializeBoolV20(value)
+        }
+    }
+    impl ::core::convert::From<SerializeBoolV21Call> for HEVMCalls {
+        fn from(value: SerializeBoolV21Call) -> Self {
+            Self::SerializeBoolV21(value)
         }
     }
     impl ::core::convert::From<SerializeBytes0Call> for HEVMCalls {
@@ -13235,6 +14381,26 @@ pub mod hevm {
             Self::SerializeBytes321(value)
         }
     }
+    impl ::core::convert::From<SerializeBytes32V20Call> for HEVMCalls {
+        fn from(value: SerializeBytes32V20Call) -> Self {
+            Self::SerializeBytes32V20(value)
+        }
+    }
+    impl ::core::convert::From<SerializeBytes32V21Call> for HEVMCalls {
+        fn from(value: SerializeBytes32V21Call) -> Self {
+            Self::SerializeBytes32V21(value)
+        }
+    }
+    impl ::core::convert::From<SerializeBytesV20Call> for HEVMCalls {
+        fn from(value: SerializeBytesV20Call) -> Self {
+            Self::SerializeBytesV20(value)
+        }
+    }
+    impl ::core::convert::From<SerializeBytesV21Call> for HEVMCalls {
+        fn from(value: SerializeBytesV21Call) -> Self {
+            Self::SerializeBytesV21(value)
+        }
+    }
     impl ::core::convert::From<SerializeInt0Call> for HEVMCalls {
         fn from(value: SerializeInt0Call) -> Self {
             Self::SerializeInt0(value)
@@ -13245,9 +14411,24 @@ pub mod hevm {
             Self::SerializeInt1(value)
         }
     }
+    impl ::core::convert::From<SerializeIntV20Call> for HEVMCalls {
+        fn from(value: SerializeIntV20Call) -> Self {
+            Self::SerializeIntV20(value)
+        }
+    }
+    impl ::core::convert::From<SerializeIntV21Call> for HEVMCalls {
+        fn from(value: SerializeIntV21Call) -> Self {
+            Self::SerializeIntV21(value)
+        }
+    }
     impl ::core::convert::From<SerializeJsonCall> for HEVMCalls {
         fn from(value: SerializeJsonCall) -> Self {
             Self::SerializeJson(value)
+        }
+    }
+    impl ::core::convert::From<SerializeJsonV2Call> for HEVMCalls {
+        fn from(value: SerializeJsonV2Call) -> Self {
+            Self::SerializeJsonV2(value)
         }
     }
     impl ::core::convert::From<SerializeString0Call> for HEVMCalls {
@@ -13260,6 +14441,16 @@ pub mod hevm {
             Self::SerializeString1(value)
         }
     }
+    impl ::core::convert::From<SerializeStringV20Call> for HEVMCalls {
+        fn from(value: SerializeStringV20Call) -> Self {
+            Self::SerializeStringV20(value)
+        }
+    }
+    impl ::core::convert::From<SerializeStringV21Call> for HEVMCalls {
+        fn from(value: SerializeStringV21Call) -> Self {
+            Self::SerializeStringV21(value)
+        }
+    }
     impl ::core::convert::From<SerializeUint0Call> for HEVMCalls {
         fn from(value: SerializeUint0Call) -> Self {
             Self::SerializeUint0(value)
@@ -13268,6 +14459,16 @@ pub mod hevm {
     impl ::core::convert::From<SerializeUint1Call> for HEVMCalls {
         fn from(value: SerializeUint1Call) -> Self {
             Self::SerializeUint1(value)
+        }
+    }
+    impl ::core::convert::From<SerializeUintV20Call> for HEVMCalls {
+        fn from(value: SerializeUintV20Call) -> Self {
+            Self::SerializeUintV20(value)
+        }
+    }
+    impl ::core::convert::From<SerializeUintV21Call> for HEVMCalls {
+        fn from(value: SerializeUintV21Call) -> Self {
+            Self::SerializeUintV21(value)
         }
     }
     impl ::core::convert::From<SetEnvCall> for HEVMCalls {
@@ -14664,6 +15865,30 @@ pub mod hevm {
         Hash
     )]
     pub struct SerializeAddress1Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeAddress_v2` function with signature `serializeAddress_v2(string,string,address)` and selector `0xb14f98fe`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeAddressV20Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeAddress_v2` function with signature `serializeAddress_v2(string,string,address[])` and selector `0x4f86c2f7`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeAddressV21Return(pub ::std::string::String);
     ///Container type for all return fields from the `serializeBool` function with signature `serializeBool(string,string,bool)` and selector `0xac22e971`
     #[derive(
         Clone,
@@ -14688,6 +15913,30 @@ pub mod hevm {
         Hash
     )]
     pub struct SerializeBool1Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeBool_v2` function with signature `serializeBool_v2(string,string,bool)` and selector `0x77604878`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeBoolV20Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeBool_v2` function with signature `serializeBool_v2(string,string,bool[])` and selector `0xbcbb7272`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeBoolV21Return(pub ::std::string::String);
     ///Container type for all return fields from the `serializeBytes` function with signature `serializeBytes(string,string,bytes)` and selector `0xf21d52c7`
     #[derive(
         Clone,
@@ -14736,6 +15985,54 @@ pub mod hevm {
         Hash
     )]
     pub struct SerializeBytes321Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeBytes32_v2` function with signature `serializeBytes32_v2(string,string,bytes32)` and selector `0x223b6847`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeBytes32V20Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeBytes32_v2` function with signature `serializeBytes32_v2(string,string,bytes32[])` and selector `0x55edc833`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeBytes32V21Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeBytes_v2` function with signature `serializeBytes_v2(string,string,bytes)` and selector `0x42ed5c0a`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeBytesV20Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeBytes_v2` function with signature `serializeBytes_v2(string,string,bytes[])` and selector `0x0284ce0a`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeBytesV21Return(pub ::std::string::String);
     ///Container type for all return fields from the `serializeInt` function with signature `serializeInt(string,string,int256)` and selector `0x3f33db60`
     #[derive(
         Clone,
@@ -14760,6 +16057,30 @@ pub mod hevm {
         Hash
     )]
     pub struct SerializeInt1Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeInt_v2` function with signature `serializeInt_v2(string,string,int256)` and selector `0x0eec85d2`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeIntV20Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeInt_v2` function with signature `serializeInt_v2(string,string,int256[])` and selector `0x392986ec`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeIntV21Return(pub ::std::string::String);
     ///Container type for all return fields from the `serializeJson` function with signature `serializeJson(string,string)` and selector `0x9b3358b0`
     #[derive(
         Clone,
@@ -14772,6 +16093,18 @@ pub mod hevm {
         Hash
     )]
     pub struct SerializeJsonReturn(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeJson_v2` function with signature `serializeJson_v2(string,string,string)` and selector `0x3ced5d01`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeJsonV2Return(pub ::std::string::String);
     ///Container type for all return fields from the `serializeString` function with signature `serializeString(string,string,string)` and selector `0x88da6d35`
     #[derive(
         Clone,
@@ -14796,6 +16129,30 @@ pub mod hevm {
         Hash
     )]
     pub struct SerializeString1Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeString_v2` function with signature `serializeString_v2(string,string,string)` and selector `0x61b23968`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeStringV20Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeString_v2` function with signature `serializeString_v2(string,string,string[])` and selector `0x627b17a8`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeStringV21Return(pub ::std::string::String);
     ///Container type for all return fields from the `serializeUint` function with signature `serializeUint(string,string,uint256)` and selector `0x129e9002`
     #[derive(
         Clone,
@@ -14820,6 +16177,30 @@ pub mod hevm {
         Hash
     )]
     pub struct SerializeUint1Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeUint_v2` function with signature `serializeUint_v2(string,string,uint256)` and selector `0x89d206a3`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeUintV20Return(pub ::std::string::String);
+    ///Container type for all return fields from the `serializeUint_v2` function with signature `serializeUint_v2(string,string,uint256[])` and selector `0xb028889e`
+    #[derive(
+        Clone,
+        ::ethers_contract::EthAbiType,
+        ::ethers_contract::EthAbiCodec,
+        Default,
+        Debug,
+        PartialEq,
+        Eq,
+        Hash
+    )]
+    pub struct SerializeUintV21Return(pub ::std::string::String);
     ///Container type for all return fields from the `sign` function with signature `sign(uint256,bytes32)` and selector `0xe341eaa4`
     #[derive(
         Clone,
